@@ -42,6 +42,15 @@ located in this directory. The `<style>` tag will link to our file with an
 Links to stylesheets should go at the end of the `<head>` section! Make sure you
 provide a _relative_ path to the stylesheet.
 
+Hint: Try adding the following temporarily to your `style.css` file to test if your link is working.
+
+```CSS
+h1{
+  color: red;
+}
+```
+If you see your `<h1>` change to red, you've linked your stylesheet correctly! Don't forget to delete is once you have your link working. 
+
 ## Deliverables
 
 For this exercise, we are going to be transforming our base HTML into a more
