@@ -49,7 +49,7 @@ h1{
   color: red;
 }
 ```
-If you see your `<h1>` change to red, you've linked your stylesheet correctly! Don't forget to delete is once you have your link working. 
+If you see your `<h1>` change to red, you've linked your stylesheet correctly! Don't forget to delete it once you have your link working. 
 
 ## Deliverables
 
