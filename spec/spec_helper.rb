@@ -90,9 +90,3 @@ def parsed_html
     config.strict.dtdload.dtdvalid.noblanks
   end
 end
-
-def parsed_css
-  parser = CssParser::Parser.new
-  parser.load_uri!('./style.css')
-  parser
-end

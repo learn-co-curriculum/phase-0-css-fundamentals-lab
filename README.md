@@ -66,7 +66,11 @@ the browser.
 
 #### What We Have
 
+![](https://curriculum-content.s3.amazonaws.com/fewds-css/css-fundamentals-lab-incomplete.png)
+
 #### What We Want
+
+![](https://curriculum-content.s3.amazonaws.com/fewds-css/css-fundamentals-lab-complete.png)
 
 
 ## Deliverables
