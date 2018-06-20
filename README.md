@@ -22,30 +22,39 @@ should be written in `style.css`.
 
 ## Import our CSS
 
-As usual, we need to make sure our HTML is loading our stylesheet. This is done
-with a `<style>` tag, which tells HTML "Hey, I want to define some CSS styling
-here. I am either going to link a file with this `<style>` tag or write styling
-directly inside of it!"
+As usual, we need to make sure our HTML is loading our stylesheet.
 
-In our case, we want to provide a link to our stylesheet, instead of writing all
-of our CSS code directly in the tag. This allows us to only have to write styles
-for the entire site once, instead of repeating every style on every page.
+We have two options:
 
-In `index.html`, provide a `<style>` tag which correctly sources the CSS file
-located in this directory. The `<style>` tag will link to our file with an
+1. Write CSS rules inside of a `<style>` tag ("internal CSS"), which tells HTML
+   "Hey, I want to define some CSS styling here
+2. Write CSS rules in an external file that is specified with the `<link>` tag
+   ("external CSS").
+
+In our case, we want to provide a link to our stylesheet, instead of writing
+all of our CSS code directly in the  `<style>` tag. This allows us to only have
+to write styles for the entire site once, instead of repeating every `<style>`
+element on every page.  A common workflow is to see developers work on CSS
+inside of the `<style>` tag until their styling is done. At that point they
+move it to their external file and remove the `<style>` element from the HTML
+page. Feel free to try it out!
+
+In `index.html`, provide a `<link>` tag which correctly sources the CSS file
+located in this directory. The `<link>` tag will link to our file with an
 `href` attribute, like so:
 
 ```HTML
 <link rel="stylesheet" href="relative path to CSS file">
 ```
 
-Links to stylesheets should go at the end of the `<head>` section! Make sure you
-provide a _relative_ path to the stylesheet.
+Links to stylesheets should go at the end of the `<head>` section! Make sure
+you provide a _relative_ path to the stylesheet.
 
-Hint: Try adding the following temporarily to your `style.css` file to test if your linked CSS is working:
+Hint: Try adding the following temporarily to your `style.css` file to test if
+your linked CSS is working:
 
 ```CSS
-h1{
+h1 {
   color: red;
 }
 ```
