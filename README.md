@@ -50,6 +50,16 @@ located in this directory. The `<link>` tag will link to our file with an
 Links to stylesheets should go at the end of the `<head>` section! Make sure
 you provide a _relative_ path to the stylesheet.
 
+Now, what is a relative path? You could write `href="style.css"` and the
+content of `style.css` would change your `index.html` file. But we want to
+teach you to require external resources (like CSS or JavaScript) by using
+_relative paths_. Relative paths make it _crystal clear_ which file is being
+used. Relative paths start with `./` which means "from the directory I am
+currently in." So, when we use `link` to associate with a stylesheet and we
+write `href="./style.css"` we're saying: "From the directory in which I, the
+`index.html` file live, look for a file called `style.css` and use it. This
+pattern will help you and other developers remove any possible confusion.
+
 Hint: Try adding the following temporarily to your `style.css` file to test if
 your linked CSS is working:
 
