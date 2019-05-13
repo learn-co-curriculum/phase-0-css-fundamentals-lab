@@ -1,10 +1,9 @@
 # Introduction to CSS Lab
 
-## Objectives
+## Learning Goals
 
-1. Practice linking an external CSS file
-2. Practice writing selectors
-3. Practice styling our HTML
+- Link an external CSS file
+- Write CSS rules to style HTML
 
 ## Introduction
 
@@ -19,8 +18,7 @@ As you can see, our basic page is rather lackluster. This is where you come in!
 You will be adding CSS, using selectors, to jazz the page up. All of our CSS
 should be written in `style.css`.
 
-
-## Import our CSS
+## Link an External CSS File
 
 As usual, we need to make sure our HTML is loading our stylesheet.
 
@@ -35,7 +33,7 @@ In our case, we want to provide a link to our stylesheet, instead of writing
 all of our CSS code directly in the  `<style>` tag. This allows us to only have
 to write styles for the entire site once, instead of repeating every `<style>`
 element on every page.  A common workflow is to see developers work on CSS
-inside of the `<style>` tag until their styling is done. At that point they
+inside of the `<style>` tag until their styling is done. At that point, they
 move it to their external file and remove the `<style>` element from the HTML
 page. Feel free to try it out!
 
@@ -72,7 +70,7 @@ h1 {
 If you see your `<h1>` change to red, you've linked your stylesheet correctly!
 Don't forget to delete it once you have your link working.
 
-## Deliverables
+## Write CSS Rules to Style HTML
 
 For this exercise, we are going to be transforming our base HTML into a more
 exciting version using CSS.
@@ -93,22 +91,21 @@ Don't forget: you can use the Chrome Inspector Tool (`cmd  + shift + C` on Mac)
 to inspect specific elements of the DOM (and make trial changes to their CSS) in
 the browser.
 
-#### What We Have
+### What We Have
 
 ![](https://curriculum-content.s3.amazonaws.com/fewds-css/css-fundamentals-lab-incomplete.png)
 
-#### What We Want
+### What We Want
 
 ![](https://curriculum-content.s3.amazonaws.com/fewds-css/css-fundamentals-lab-complete.png)
 
-
-## Deliverables
+### Deliverables
 
 - **Update the header**: the text is a little wonky being aligned on the left like that. Provide a property that aligns it in the center instead
 
 - **Center our image**: We only have one image on the page and we would like it centered!
 
-- **Jazz up our navigation links**: Let's center all of our nav links as well. Give all of the `<a>` tags within our navbar a padding of 10px on their left and right sides. In addition, change their background color to something of your choosing. We chose grey!
+- **Jazz up our navigation links**: Let's center all of our nav links as well. Give all of the `<a>` tags within our navbar padding of 10px on their left and right sides. In addition, change their background color to something of your choosing. We chose grey!
 
 - **Our image caption needs work**: Let's shrink that font size down and make sure it is centered.
 
@@ -118,23 +115,17 @@ the browser.
 
 - **As a finishing touch**: Let's clean up the `<div>`s at the bottom of the page. All of them should have the same background color, centered text, and occupy 25% of the `width` of the bottom row (since we have 4 divs).
 
-
 ## Conclusion
 
-CSS allows many avenues to the same goal. The important take-away is to
+CSS allows many avenues to the same goal. The important takeaway is to
 experiment and become familiar with the commonly used rules. This will enable
-you to identify what properties will get you to which end result quickest.
+you to identify what properties will get you to which end result the quickest.
 
-You will find that, even years into your career as a front end developer, you
+You will find that even years into your career as a front end developer, you
 will be referencing basic CSS documentation. _This is to be expected!_. To be
 comfortable quickly finding the property/value you are looking for online is the
-most important skillset you can develop right now. Memorization is for machines,
+most important skill set you can develop right now. Memorization is for machines,
 adaptation is for humans!
-
-## Resources
-- [W3 Introduction to CSS](https://www.w3schools.com/Css/css_intro.asp)
 
 [unstyled]: https://curriculum-content.s3.amazonaws.com/web-development/unstyled-codepen.jpeg
 [styled]: https://curriculum-content.s3.amazonaws.com/web-development/styled-codepen.jpeg
-
-<p class='util--hide'>View <a href='https://learn.co/lessons/introduction-to-css-lab'>Introduction to CSS Lab</a> on Learn.co and start learning to code for free.</p>
