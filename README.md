@@ -20,7 +20,7 @@ should be written in `style.css`.
 
 ## Link an External CSS File
 
-As usual, we need to make sure our HTML is loading our stylesheet.
+As usual, we need to make sure our HTML is loading our style sheet.
 
 We have two options:
 
@@ -29,7 +29,7 @@ We have two options:
 2. Write CSS rules in an external file that is specified with the `<link>` tag
    ("external CSS").
 
-In our case, we want to provide a link to our stylesheet, instead of writing
+In our case, we want to provide a link to our style sheet, instead of writing
 all of our CSS code directly in the  `<style>` tag. This allows us to only have
 to write styles for the entire site once, instead of repeating every `<style>`
 element on every page.  A common workflow is to see developers work on CSS
@@ -45,15 +45,15 @@ located in this directory. The `<link>` tag will link to our file with an
 <link rel="stylesheet" href="relative path to CSS file">
 ```
 
-Links to stylesheets should go at the end of the `<head>` section! Make sure
-you provide a _relative_ path to the stylesheet.
+Links to style sheets should go at the end of the `<head>` section! Make sure
+you provide a _relative_ path to the style sheet.
 
 Now, what is a relative path? You could write `href="style.css"` and the
 content of `style.css` would change your `index.html` file. But we want to
 teach you to require external resources (like CSS or JavaScript) by using
 _relative paths_. Relative paths make it _crystal clear_ which file is being
 used. Relative paths start with `./` which means "from the directory I am
-currently in." So, when we use `link` to associate with a stylesheet and we
+currently in." So, when we use `link` to associate with a style sheet and we
 write `href="./style.css"` we're saying: "From the directory in which I, the
 `index.html` file live, look for a file called `style.css` and use it. This
 pattern will help you and other developers remove any possible confusion.
@@ -67,7 +67,7 @@ h1 {
 }
 ```
 
-If you see your `<h1>` change to red, you've linked your stylesheet correctly!
+If you see your `<h1>` change to red, you've linked your style sheet correctly!
 Don't forget to delete it once you have your link working.
 
 ## Write CSS Rules to Style HTML
