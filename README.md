@@ -117,7 +117,8 @@ the browser.
 
 - **Update the text block**: Wouldn't it look nicer if our text was centered as
   well? Our image is about 900px wide, so let's give all our `<p>`s within
-  `#featured-property` a hard width of 800px and center the text in there.
+  `#featured-property` a hard width of 800px and center the text in there. Be
+  sure to keep a little vertical space around the `<p>`s.
 
 - **Make our `#details` section horizontal**: The details section could go
   nicely as a footer to the page, instead of a vertical list. To do this, make
