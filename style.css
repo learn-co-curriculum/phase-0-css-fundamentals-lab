@@ -12,9 +12,14 @@ img {
   display: block;
   margin: 0 auto;
 }
-nav,
+
+nav {
+  text-align: center;
+}
+
 figcaption {
   text-align: center;
+  font-size: 12px;
 }
 
 nav a {
@@ -26,7 +31,7 @@ nav a {
 #featured-property p {
   width: 800px;
   text-align: center;
-  margin: 0 auto;
+  margin: 8px auto;
 }
 
 #details div{
