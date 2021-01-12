@@ -18,6 +18,13 @@ As you can see, our basic page is rather lackluster. This is where you come in!
 You will be adding CSS, using selectors, to jazz the page up. All of our CSS
 should be written in `style.css`.
 
+## Getting Started
+
+Fork and clone this lesson into your local environment. Navigate into its directory
+in the terminal, then run `code .` to open the files in Visual Studio Code. Finally,
+run `bundle` to install the lab's dependencies. Run `rspec` as you work through
+this assignment to see your progress.
+
 ## Link an External CSS File
 
 As usual, we need to make sure our HTML is loading our style sheet.
