@@ -32,7 +32,7 @@ As usual, we need to make sure our HTML is loading our style sheet.
 We have two options:
 
 1. Write CSS rules inside of a `<style>` tag ("internal CSS"), which tells HTML
-   "Hey, I want to define some CSS styling here
+   "Hey, I want to define some CSS styling here"
 2. Write CSS rules in an external file that is specified with the `<link>` tag
    ("external CSS").
 
@@ -62,7 +62,7 @@ Relative paths make it _crystal clear_ which file is being used. Relative paths
 start with `./` which means "from the directory I am currently in." So, when we
 use `link` to associate with a style sheet and we write `href="./style.css"`
 we're saying: "From the directory in which I, the `index.html` file live, look
-for a file called `style.css` and use it. This pattern will help you and other
+for a file called `style.css` and use it." This pattern will help you and other
 developers remove any possible confusion.
 
 Hint: Try adding the following temporarily to your `style.css` file to test if
