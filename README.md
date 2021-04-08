@@ -1,4 +1,4 @@
-# Introduction to CSS Lab
+# CSS Fundamentals Lab
 
 ## Learning Goals
 
