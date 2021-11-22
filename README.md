@@ -8,11 +8,10 @@
 ## Introduction
 
 In this lab, we will be adding style to our `index.html` page by linking an
-external CSS file. If you open `index.html` in the browser (by either opening
-the file with Google Chrome or running `httpserver` on the Learn IDE), you will
-see basic HTML that has been provided. The website emulates a basic Real Estate
-website (the links on it have been disabled, we will be working with only the
-basic `index.html` landing page).
+external CSS file. If you open `index.html` in the browser, you will see basic
+HTML that has been provided. The website emulates a basic Real Estate website
+(the links on it have been disabled, we will be working with only the basic
+`index.html` landing page).
 
 As you can see, our basic page is rather lackluster. This is where you come in!
 You will be adding CSS, using selectors, to jazz the page up. All of our CSS
@@ -20,10 +19,10 @@ should be written in `style.css`.
 
 ## Getting Started
 
-Fork and clone this lesson into your local environment. Navigate into its directory
-in the terminal, then run `code .` to open the files in Visual Studio Code. Finally,
-run `bundle` to install the lab's dependencies. Run `rspec` as you work through
-this assignment to see your progress.
+Fork and clone this lesson into your local environment. Navigate into its
+directory in the terminal, then run `code .` to open the files in Visual Studio
+Code. Finally, run `npm install` to install the lab's dependencies. Run
+`npm test` as you work through this assignment to see your progress.
 
 ## Link an External CSS File
 
@@ -39,10 +38,10 @@ We have two options:
 In our case, we want to provide a link to our style sheet, instead of writing
 all of our CSS code directly in the `<style>` tag. This allows us to only have
 to write styles for the entire site once, instead of repeating every `<style>`
-element on every page. A common workflow is to see developers work on CSS
-inside of the `<style>` tag until their styling is done. At that point, they
-move it to their external file and remove the `<style>` element from the HTML
-page. Feel free to try it out!
+element on every page. A common workflow is to see developers work on CSS inside
+of the `<style>` tag until their styling is done. At that point, they move it to
+their external file and remove the `<style>` element from the HTML page. Feel
+free to try it out!
 
 In `index.html`, provide a `<link>` tag which correctly sources the CSS file
 located in this directory. The `<link>` tag will link to our file with an `href`
@@ -139,8 +138,8 @@ the browser.
 
 Currently, the work you've done on this assignment is only on your local
 machine. To preserve work on your GitHub fork, you will need to stage the
-changes you've made, commit them, and push the commit up to GitHub. Use
-the following commands to do this:
+changes you've made, commit them, and push the commit up to GitHub. Use the
+following commands to do this:
 
 ```console
 $ git add .
@@ -160,8 +159,10 @@ you to identify what properties will get you to which end result the quickest.
 You will find that even years into your career as a front end developer, you
 will be referencing basic CSS documentation. _This is to be expected!_ To be
 comfortable quickly finding the property/value you are looking for online is the
-most important skill set you can develop right now. Memorization is for machines,
-adaptation is for humans!
+most important skill set you can develop right now. Memorization is for
+machines, adaptation is for humans!
 
-[un-styled]: https://curriculum-content.s3.amazonaws.com/web-development/unstyled-codepen.jpeg
-[styled]: https://curriculum-content.s3.amazonaws.com/web-development/styled-codepen.jpeg
+[un-styled]:
+  https://curriculum-content.s3.amazonaws.com/web-development/unstyled-codepen.jpeg
+[styled]:
+  https://curriculum-content.s3.amazonaws.com/web-development/styled-codepen.jpeg
