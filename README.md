@@ -21,8 +21,7 @@ should be written in `style.css`.
 
 Fork and clone this lesson into your local environment. Navigate into its
 directory in the terminal, then run `code .` to open the files in Visual Studio
-Code. Finally, run `npm install` to install the lab's dependencies. Run
-`npm test` as you work through this assignment to see your progress.
+Code. Run `learn test` as you work through this assignment to see your progress.
 
 ## Link an External CSS File
 
@@ -133,22 +132,6 @@ the browser.
 - **As a finishing touch**: Let's clean up the `<div>`s at the bottom of the
   page. All of them should have the same background color, centered text, and
   occupy 25% of the `width` of the bottom row (since we have 4 divs).
-
-## Saving Your Work Remotely
-
-Currently, the work you've done on this assignment is only on your local
-machine. To preserve work on your GitHub fork, you will need to stage the
-changes you've made, commit them, and push the commit up to GitHub. Use the
-following commands to do this:
-
-```console
-$ git add .
-$ git commit -m "Completed assignment"
-$ git push
-```
-
-If you visit your fork on GitHub, you should now see that _you've_ made the most
-recent commit, and your solution will be present in the files.
 
 ## Conclusion
 
