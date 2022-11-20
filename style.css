@@ -1,3 +1,48 @@
+/*header*/
+header{
+  text-align: center;
+}
+/*nav*/
+a{
+  padding:10px;
+  background-color: bisque;
+}
+/*figure*/
+
+figure{
+  text-align: center;
+}
+figcaption{
+    font-size: smaller;
+}
+/*p*/
+   p{
+    text-align: center;
+    width: 800px;
+    padding-left: 300px;
+   }
+/*section*/
+ 
+  
+
+.child{float: left;}
+   /*div*/
+   div{
+    text-align: center;
+    float: left;
+    background-color: red;
+   }
+
+ 
+    
+   
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+
 body {
   width: 100%;
   height: 100%;
