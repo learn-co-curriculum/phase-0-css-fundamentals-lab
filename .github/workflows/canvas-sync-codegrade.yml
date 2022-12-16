@@ -1,4 +1,4 @@
-name: Sync with Canvas HTML
+name: Sync with Canvas CodeGrade
 
 on:
   push:
