@@ -3,3 +3,49 @@ body {
   height: 100%;
   margin: 0;
 }
+header{
+  text-align: center;
+}
+figure{
+  text-align: center;
+
+}
+figure img{
+  display: block;
+  margin:auto;
+  width: 800px;
+
+}
+#featured-property {
+  text-align: center; 
+  
+}
+
+
+#details{
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: darkblue
+  
+  
+}
+
+figcaption{
+  font-size:x-small;
+}
+
+figure{
+  justify-content: center;
+}
+#details div{
+  background-color: blanchedalmond;
+  text-align: center;
+  width: 25%;
+  float: left;
+}
+#featured-property p {
+  width: 800px;
+  margin: auto;
+  padding: 10px;
+}
