@@ -7,49 +7,43 @@ body {
 header{
   text-align: center;
 }
-/* img{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-} */
-
-nav{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-nav a{
-  background-color: red;
-  color: black;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-figcaption{
-  text-align: center;
-  font-size: 10px;
-}
 
 #featured-property{
   text-align: center;
 }
 
+nav{
+  display: inline-block;
+  align-items: center;
+}
+
+nav a{
+  background:grey;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+figcaption{
+  font-size: 10px;
+}
+
+
+
 #featured-property p{
   width: 800px;
-  margin-left: 200px;
-  margin-right: 200px;
-}
-
-#details{
-  display: inline;
+  margin: 10px auto;
 
 }
+
+/* #details{
+  float: left;
+} */
+
 
 #details div{
   background-color: aquamarine;
   text-align: center;
   width: 25%;
   float: left;
-}
+  margin-bottom: 2%;
+} 
