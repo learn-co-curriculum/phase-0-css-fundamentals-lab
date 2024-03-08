@@ -3,3 +3,30 @@ body {
   height: 100%;
   margin: 0;
 }
+  h1 {
+    text-align: center;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .topnav a {
+    background-color:gray;
+    padding :10px;
+    position: relative;
+    margin: auto;
+    
+   }
+   * {
+    text-align: center;
+    
+   }
+
+   div {
+    float: left;
+    background-color: aqua;
+    text-align: center;
+    width: 25pc;
+   }
+   
