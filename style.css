@@ -3,3 +3,33 @@ body {
   height: 100%;
   margin: 0;
 }
+header{
+  text-align: center;
+}
+img {
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+nav a {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: aqua;
+}
+figcaption{
+  text-align: center;
+  font-size:medium
+}
+#featured-property p{
+  text-align: center;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#details div{
+  float: left;
+  background-color: beige;
+  width: 25%;
+  text-align: center;
+}
