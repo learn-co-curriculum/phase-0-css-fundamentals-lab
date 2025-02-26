@@ -3,3 +3,47 @@ body {
   height: 100%;
   margin: 0;
 }
+
+header h1 {
+  text-align: center;
+}
+
+#featured-property figure {
+  text-align: center;
+}
+
+#featured-property img {
+  display: block;
+  margin: 0 auto;
+}
+
+nav a {
+  padding: 10px;
+  background-color: grey;
+  display: inline-block;
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+}
+
+#featured-property figcaption {
+  font-size: 0.8em;
+  text-align: center;
+}
+
+#featured-property p {
+  width: 800px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+#details div {
+  float: left;
+  width: 25%;
+  text-align: center;
+  background-color: red;
+  padding: 10px;
+  box-sizing: border-box;
+}
