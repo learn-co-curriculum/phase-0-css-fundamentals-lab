@@ -4,12 +4,12 @@ body {
   margin: 0;
 }
 
-header {
+#featured-property p, figcaption, figure, header,#details div {
   text-align: center;
 }
 
-img {
-  vertical-align: middle;
+figure {
+  margin: 0 auto;
 }
 
 nav a {
@@ -19,17 +19,18 @@ nav a {
 
 figcaption {
   font-size: 15px;
-  text-align: center;
+  padding-bottom: 25px;
 }
 
 #featured-property p {
   width: 800px;
-  text-align: center;
+  margin: 0 auto;
+  padding: 10px;
 }
 
 #details div {
   float: left;
   background-color: red;
-  text-align: center;
   width: 25%;
 }
+
