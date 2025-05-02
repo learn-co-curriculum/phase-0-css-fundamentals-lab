@@ -16,3 +16,20 @@ nav a {
   padding-left: 10px;
   padding-right: 10px;
 }
+
+figcaption {
+  font-size: 15px;
+  text-align: center;
+}
+
+#featured-property p {
+  width: 800px;
+  text-align: center;
+}
+
+#details div {
+  float: left;
+  background-color: red;
+  text-align: center;
+  width: 25%;
+}
