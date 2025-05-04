@@ -1,5 +1,63 @@
+h1 {
+  text-align: center;
+  color: black;
+}
 body {
   width: 100%;
   height: 100%;
   margin: 0;
+  text-align: center;
 }
+img {
+  text-align: center;
+  margin-left: 5px;
+  width: 800px;
+  height: 400px;
+}
+p {
+  text-align: center;
+  margin: 0px;
+  line-height: 1.2em;
+  font-size: 16px;
+}
+.nav a {
+  width: 400px;
+  padding: 10x;
+  background: grey;
+  margin: 0 auto;
+  text-align: center;
+}
+figcaption {
+  text-align: center;
+  font-size: 0.4em;
+  margin: 18px;
+}
+#featured-property p {
+  width: 800px;
+  margin: 20px auto;
+  text-align: center;
+  flex: 1;
+}
+footer {
+  padding: 20px;
+  text-align: center;
+}
+#details {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  border: 2px solid red;    
+  box-sizing: border-box;
+  width: 100%;     
+  margin: 40px auto;         
+  background-color:red;    
+}
+#details > div {
+  width: 330px;
+  padding: 20px;
+  text-align: center;
+  background: red;
+  box-sizing: border-box;
+  border: 1px solid red; 
