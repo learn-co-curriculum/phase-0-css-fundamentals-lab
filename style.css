@@ -1,5 +1,31 @@
+/*header {
+  text-align: center;
+}
+nav {
+  text-align: center;
+  margin-top: 20px;
+}I was figuring out some stuff*/
+
 body {
   width: 100%;
   height: 100%;
   margin: 0;
+  text-align: center;
+}
+
+nav a{
+  background-color: rgb(221, 220, 220);
+  width: 100%;
+}
+
+#featured-property p{
+  width: 800px; 
+  margin: 20px auto;
+}
+
+#details div {
+  float: left;
+  width: 25%;
+  background-color: red;
+  text-align: center; 
 }
