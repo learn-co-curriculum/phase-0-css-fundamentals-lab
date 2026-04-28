@@ -3,3 +3,41 @@ body {
   height: 100%;
   margin: 0;
 }
+header {
+  text-align: center;
+  color: rgb(39, 150, 39);
+}
+img {
+  margin: 0 auto;
+  display: block;
+}
+nav {
+  text-align: center;
+}
+nav a {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgba(231, 162, 231, 0.783);
+  color: rgb(39, 150, 39);
+}
+figcaption {
+  font-size: 12px;
+  padding-left: 100px;
+  text-align: center;
+}
+
+div h3 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#featured-property p {
+  width: 800px;
+  margin: 10px auto;
+  text-align: center;
+}
+#details div {
+  float: left;
+  width: 25%;
+  background-color: rgba(231, 162, 231, 0.783);
+  text-align: center;
+}
